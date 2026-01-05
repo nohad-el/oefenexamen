@@ -1,0 +1,81 @@
+:root {
+    --wit: #f0f0f0;
+    --groen: #2fad6a;
+    --rood: #cf2d2d;
+    --geel: #fcb900;
+    font-family: Georama, Arial, Helvetica, sans-serif;
+    color: var(--wit);
+    text-transform: uppercase;
+    background-color: var(--groen);
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+header img {
+    width: 30rem;
+    margin: auto;
+    padding: 2rem 0rem;
+}
+
+h2 {
+    font-size: 4rem;
+    letter-spacing: 1rem;
+    font-weight: 900;
+}
+
+
+h1 {
+    font-size: 6rem;
+    font-weight: 900;
+}
+
+/* RODE STROOK */
+h3 {
+    background-color: var(--rood);
+    padding: 1rem;
+    font-size: 2.5rem;
+    text-align: center;
+    letter-spacing: 0.8rem;
+}
+
+/* FLEX CONTAINER */
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 6rem auto;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+}
+
+.container h2 {
+    font-size: 3rem;
+}
+
+#lilpump {
+    width: 20rem;
+    padding: 2rem 0rem;
+}
+
+.airtable {
+    margin-top: 3rem;
+} 
+
+#burger {
+    width: auto;
+    position: sticky;
+    top: 1rem;
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--geel);
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    padding: 1rem 0rem;
+    margin-top: 200rem;
+}
